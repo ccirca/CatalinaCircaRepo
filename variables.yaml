@@ -1,5 +1,5 @@
 adb_core: "1"
-adb_name: "container-instance-adb"
+adb_name: "container-instance-adb1"
 adb_db_name: "ciadb"
 adb_size: "1"
 subnet_name: "CI-subnet"
