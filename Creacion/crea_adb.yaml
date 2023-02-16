@@ -16,7 +16,6 @@
         display_name: "{{ adb_name }}"
         admin_password: "{{ admin_password }}"
         db_name: "{{ adb_db_name }}"
-        data_storage_size_in_tbs: "{{ adb_size }}"
-        is_free_tier: true
+        data_storage_size_in_tbs: "{{ adb_size }}
         state: 'present'
     register: adb_resultado
